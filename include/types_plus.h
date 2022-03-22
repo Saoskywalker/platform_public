@@ -7,6 +7,21 @@ extern "C" {
 
 #include "types_base.h"
 
+typedef uint32_t u32;
+typedef uint16_t u16;
+typedef uint8_t u8;
+
+typedef unsigned char     UCHAR;    ///< Define char unsigned data type
+typedef unsigned char *   PUINT8;   ///< Define 8-bit unsigned pointer data type
+typedef unsigned char *   PUCHAR;   ///< Define char unsigned pointer data type
+typedef char *            PSTR;     ///< Define string pointer data type
+typedef const char *      PCSTR;    ///< Define constant string pointer data type
+
+typedef short             SHORT;    ///< Define short signed data type
+typedef short *           PSHORT;   ///< Define short signed pointer data type
+typedef unsigned short    USHORT;   ///< Define short unsigned data type
+typedef unsigned short *  PUSHORT;  ///< Define short unsigned pointer data type
+
 typedef enum 
 {
   HAL_OK       = 0x00U,
