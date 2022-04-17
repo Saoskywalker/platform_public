@@ -22,6 +22,18 @@ typedef short *           PSHORT;   ///< Define short signed pointer data type
 typedef unsigned short    USHORT;   ///< Define short unsigned data type
 typedef unsigned short *  PUSHORT;  ///< Define short unsigned pointer data type
 
+typedef unsigned char	  BYTE; //This type MUST be 8 bit
+typedef unsigned short	  WORD; //These types MUST be 16 bit
+typedef unsigned short	  WCHAR; //These types MUST be 16 bit
+typedef unsigned long	  DWORD; //These types MUST be 32 bit
+typedef long              LONG; //These types MUST be 32 bit
+typedef unsigned long     ULONG; //These types MUST be 32 bit
+
+typedef int               INT;      ///< Define integer signed data type
+typedef int *             PINT;     ///< Define integer signed pointer data type
+typedef unsigned int      UINT;     ///< Define integer unsigned data type
+typedef unsigned int *    PUINT;    ///< Define integer unsigned pointer data type
+
 typedef enum 
 {
   HAL_OK       = 0x00U,
